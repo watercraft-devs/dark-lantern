@@ -34,9 +34,9 @@ fails.
 
 ## Functionality
 
-- creates `/etc/unbound/unbound.conf.d/watercraft-dot.conf` and `/etc/NetworkManager/conf.d/90-watercraft-dns.conf` 
+- creates `/etc/unbound/unbound.conf.d/dark-lantern-dot.conf` and `/etc/NetworkManager/conf.d/90-dark-lantern-dns.conf` 
 - points `/etc/resolv.conf/` at localhost `127.0.0.1`
-- makes a backup of the original at  `/etc/resolv.conf.pre-watercraft`
+- makes a backup of the original at  `/etc/resolv.conf.pre-dark-lantern`
 - restore to the backup and cleanup all created files with the `disable` command
 
 
