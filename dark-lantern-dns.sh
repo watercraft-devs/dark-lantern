@@ -32,6 +32,7 @@ enable_dark_lantern() {
 	cat > "$UNBOUND_CONF" << 'EOF'
 server:
     interface: 127.0.0.1
+    so-sndbuf: 0
     tls-cert-bundle: /etc/ssl/certs/ca-certificates.crt
 
 forward-zone:
